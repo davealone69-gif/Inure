@@ -12,7 +12,7 @@ on:
             - '**.properties'
             - '**.py'
             - '**.sh'
-    workflow_dispatch:
+    workflow_dispatch:#
         inputs:
             message:
                 description: 'Message to be sent'
